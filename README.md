@@ -10,18 +10,17 @@ Time spent: **2** hours spent in total
 
 The following **required** functionality is completed:
 
+* [X] Created a Tip Calculator using Xcode that updates the tip and total amounts in real time, using a segmented control
 * [X] Successfully pushed my code to github
 * [X] Added a README which includes a GIF walkthrough of the app's functionality
-* [ ] User can **persist todo items** and retrieve them properly on app restart
+* [X] Created an issue on the repo and included /cc @codepathreview in the issue body
 
-The following **optional** features are implemented:
+The following **optional** features will be implemented:
 
-* [ ] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
-* [ ] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
-* [ ] Add support for completion due dates for todo items (and display within listview item)
-* [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
-* [ ] Add support for selecting the priority of each todo item (and display in listview item)
-* [ ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+* [ ] Add a Settings Screen to the Tip Calculator
+* [ ] Enable Navigation between Screens
+* [ ] Create a Settings View Controller
+* [ ] Save settings configurations
 
 The following **additional** features are implemented:
 
@@ -35,4 +34,24 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-This project is a first look into Xcode and Swift and required for entry into CodePath University's 
+This project is a first look into Xcode and Swift and required for entry into CodePath University's iOS program at Fordham University.
+
+## Notes
+
+Swift is fun!
+
+## License
+
+    Copyright [2015] [Nathan Miranda]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
