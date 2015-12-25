@@ -24,7 +24,7 @@ The following **optional** features will be implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] Add animations and improve UI!
 
 ## Video Walkthrough 
 
