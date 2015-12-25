@@ -23,7 +23,33 @@ class ViewController: UIViewController {
         totalLabel.text = "$0.00"
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        print("view will appear")
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let tipValue = defaults.integerForKey("defaultTipIndex")
+        print(tipValue)
+        tipControl.selectedSegmentIndex = tipValue
+        // This is a good place to retrieve the default tip percentage from NSUserDefaults
+        // and use it to update the tip amount
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        print("view did appear")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("view will disappear")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("view did disappear")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
