@@ -17,14 +17,18 @@ The following **required** functionality is completed:
 
 The following **optional** features will be implemented:
 
-* [ ] Add a Settings Screen to the Tip Calculator
-* [ ] Enable Navigation between Screens
-* [ ] Create a Settings View Controller
-* [ ] Save settings configurations
+* [X] Add a Settings Screen to the Tip Calculator
+* [X] Enable Navigation between Screens
+* [X] Create a Settings View Controller
+* [X] Save settings configurations
 
-The following **additional** features are implemented:
+The following **additional** features will be implemented:
 
 * [ ] Add animations and improve UI!
+* [ ] Use locale specific currency and currency thousands separator.
+* [ ] Add a light/dark color theme to the settings view. In viewWillAppear, update views with the correct theme colors.
+* [ ] Make sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
 
 ## Video Walkthrough 
 
