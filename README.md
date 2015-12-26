@@ -26,7 +26,7 @@ The following **additional** features will be implemented:
 
 * [ ] Add animations and improve UI!
 * [ ] Use locale specific currency and currency thousands separator.
-* [ ] Add a light/dark color theme to the settings view. In viewWillAppear, update views with the correct theme colors.
+* [X] Add a light/dark color theme to the settings view. In viewWillAppear, update views with the correct theme colors.
 * [ ] Make sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 
