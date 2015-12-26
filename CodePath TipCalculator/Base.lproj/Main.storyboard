@@ -131,12 +131,33 @@
                                     <action selector="onEditingChangedSettings:" destination="Z3J-TT-eYi" eventType="valueChanged" id="BSC-Xf-cGq"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Theme:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="87Y-pF-nys">
+                                <rect key="frame" x="131" y="197" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="03u-2P-CeX">
+                                <rect key="frame" x="50" y="236" width="220" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Light"/>
+                                    <segment title="Dark"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onEditingChangedSettings:" destination="Z3J-TT-eYi" eventType="valueChanged" id="14I-kp-wiK"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="ok5-LW-Erx"/>
                     <connections>
                         <outlet property="defaultControl" destination="px0-eV-yKG" id="aYc-ru-aAH"/>
+                        <outlet property="themeControl" destination="03u-2P-CeX" id="76F-q2-sSw"/>
+                        <outlet property="themeLabel" destination="87Y-pF-nys" id="hWf-uh-fcd"/>
+                        <outlet property="tipLabel" destination="MS1-Cb-Lz7" id="f3G-Fx-hZS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLD-yl-znr" userLabel="First Responder" sceneMemberID="firstResponder"/>
