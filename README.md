@@ -27,12 +27,13 @@ The following **additional** features will be implemented:
 * [ ] Add animations and improve UI!
 * [ ] Use locale specific currency and currency thousands separator.
 * [X] Add a light/dark color theme to the settings view. In viewWillAppear, update views with the correct theme colors.
-* [ ] Make sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Make sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Added support for splitting the check
 
 
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of the tip calculator in action:
 
 <img src='http://i.imgur.com/XZcqWas.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
