@@ -44,6 +44,7 @@ This project is a first look into Xcode and Swift and required for entry into Co
 ## Notes
 
 Swift is fun!
+The Apple Developer Membership Fee is expensive :(
 
 ## License
 
